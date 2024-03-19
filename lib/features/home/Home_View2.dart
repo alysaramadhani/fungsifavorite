@@ -1,11 +1,11 @@
-import 'package:favoritefungsi/features/home/home_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../utils/constants/api_constants.dart';
+import 'home_controller2.dart';
 
-class HomeView extends GetView<HomeController> {
-  const HomeView({super.key});
+class HomeView2 extends GetView<HomeController2> {
+  const HomeView2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class HomeView extends GetView<HomeController> {
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 196, 72, 76),
         title: const Text(
-          'ALYSA RESTAURANT',
+          'ALYSA RESTAURANT HOME2',
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
