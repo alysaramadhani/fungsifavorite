@@ -14,7 +14,7 @@ class HomeView2 extends GetView<HomeController2> {
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 196, 72, 76),
         title: const Text(
-          'ALYSA RESTAURANT HOME2',
+          'ALYSA RESTAURANT',
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
